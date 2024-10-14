@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.menu {
+  margin-right: auto;
+  color: transparent;
+  background-color: transparent;
+  border: 0px;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo > img {
+  width: 200px;
+}
+
+.search {
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 2px;
+  border-color: white;
+}
+
+.connect {
+  display: flex;
+  gap: 10px;
+  color: transparent;
+  background-color: transparent;
+}
+.login {
+  display: flex;
+  gap: 10px;
+  color: transparent;
+  background-color: transparent;
+}
