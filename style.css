@@ -1,3 +1,6 @@
+body {
+  background: linear-gradient(90deg, rgb(179, 0, 170), rgb(0, 167, 189));
+}
 header {
   display: flex;
   align-items: center;
@@ -9,6 +12,7 @@ header {
   color: transparent;
   background-color: transparent;
   border: 0px;
+  font-family: "Contrail One";
 }
 
 .logo {
@@ -34,9 +38,49 @@ header {
   color: transparent;
   background-color: transparent;
 }
-.login {
+
+.login:hover {
   display: flex;
   gap: 10px;
   color: transparent;
   background-color: transparent;
+}
+/* .reseau {
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.conditions {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.mentions {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+} */
+
+button {
+  font-family: "Contrail One";
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 0px;
+  font-size: large;
+  font-weight: lighter;
+  cursor: pointer;
 }
