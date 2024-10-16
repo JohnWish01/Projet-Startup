@@ -78,15 +78,14 @@ button {
   font-family: "Contrail One";
   color: rgb(255, 255, 255);
   background-color: transparent;
-  border: 0px;
   font-size: large;
   font-weight: lighter;
   cursor: pointer;
+  border-color: transparent;
 }
 .cards {
   display: grid;
   grid-template-rows: 200px 1fr;
-  background-color: white;
   border-radius: 20px;
   width: 100%;
   height: 50px;
@@ -106,4 +105,8 @@ footer {
   height: 100%;
   align-items: flex-end;
   position: sticky;
+}
+.text {
+  font-family: "Contrail One";
+  color: white;
 }
