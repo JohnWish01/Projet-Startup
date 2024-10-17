@@ -1,10 +1,5 @@
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(179, 0, 170, 0.863),
-    rgb(0, 167, 189)
-  );
-  height: 90px;
+  background: linear-gradient(90deg, rgb(179, 0, 170), rgb(0, 167, 189));
 }
 header {
   display: flex;
@@ -44,69 +39,54 @@ header {
   background-color: transparent;
 }
 
-/* .reseau {
+.login {
   display: flex;
-  align-items: center;
-  padding: 100px;
+  gap: 10px;
+  color: transparent;
+  background-color: transparent;
 }
-
-.shop {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: auto;
-}
-
-.contact {
-  display: flex;
-  align-items: center;
-}
-
-.conditions {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-
-.mentions {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-} */
 
 button {
   font-family: "Contrail One";
   color: rgb(255, 255, 255);
   background-color: transparent;
+  border: 0px;
   font-size: large;
   font-weight: lighter;
   cursor: pointer;
-  border-color: transparent;
-}
-.cards {
-  display: grid;
-  grid-template-rows: 200px 1fr;
-  border-radius: 20px;
-  width: 100%;
-  height: 50px;
-
-  /* box-shadow: 5px 2px 5px 3px red; */
-}
-.card img {
-  object-fit: fill;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  align-items: flex-end;
-  position: sticky;
-}
-.text {
+select {
   font-family: "Contrail One";
   color: white;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.1rem;
+}
+
+label {
+  padding: 2px 5px;
+  font-size: 0.9rem;
+}
+
+option {
+  color: white;
+  background-color: #af03af;
+  border-color: aqua;
+}
+
+.img1 img {
+  width: 500px;
+  display: flex;
+  object-fit: fill;
+  margin: auto;
+  z-index: 1;
+  position: sticky;
+  padding-top: 60px;
+}
+.img2 img {
+  display: flex;
+  position: absolute;
+  z-index: -10;
+  margin: auto;
 }
