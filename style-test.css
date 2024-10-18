@@ -1,0 +1,126 @@
+* {
+  font-family: 'Contrail One';
+}
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+select {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+option {
+  color: black;
+}
+.logo > img {
+  width: 200px;
+}
+input {
+  background-color: transparent;
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(179, 0, 170), rgb(0, 167, 189));
+  width: auto;
+  height: auto;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-logo {
+  display: flex;
+  flex-direction: row;
+  height: 420px;
+  max-width: 1567px;
+}
+.big_logo {
+  height: 420px;
+}
+
+.banner-shoes-slog {
+  margin: 0 auto;
+  height: 400px;
+}
+.shoes-slog {
+  height: 400px;
+}
+.banner-ville-futuriste {
+  margin:0 auto;
+  height: 270px;
+}
+
+.shop {
+  display: flex;
+
+}
+
+.ville-futuriste {
+  height: 270px;
+}
+.card-matelassure {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.matelassure-noir-img {
+  border-radius: 10px;
+}
+.matelassure-img {
+  border-radius: 10px;
+}
+
+footer {
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  border-color: transparent;
+  color: white;
+  background-color: transparent;
+  align-items: center;
+  transform: translateY(4px);
+}
+
+.icone {
+  width: 200px;
+  margin: 0px;
+}
+.icone-img {
+  width: 200px;
+}
+
+.buttons-footer {
+  width: 400PX;
+}
+
+.e-mail {
+  margin:0px;
+}
+.e-mail-img {
+  width: 300px;
+}
+
+
+@media screen and (max-width: 992px) {
+  header {
+    background-color: none;
+  }
+  footer {
+    background-color: none;
+  }
+  .banner-shoes-slog {
+    background-color: none;
+  }
+}
